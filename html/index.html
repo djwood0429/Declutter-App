@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Declutter App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Declutter App</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#add-item">Add Item</a></li>
+      <li><a href="#view-items">View Items</a></li>
+      <li><a href="#progress">Progress</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to the Declutter App</h2>
+      <p>This app will help you organize and declutter your home.</p>
+    </section>
+
+    <section id="add-item">
+      <h2>Add Item</h2>
+      <form>
+        <label for="item-name">Item Name:</label>
+        <input type="text" id="item-name" name="item-name">
+        <br>
+        <label for="item-location">Item Location:</label>
+        <input type="text" id="item-location" name="item-location">
+        <br>
+        <label for="item-date">Item Date Acquired:</label>
+        <input type="date" id="item-date" name="item-date">
+        <br>
+        <label for="item-sentiment">Sentimental Value:</label>
+        <input type="number" id="item-sentiment" name="item-sentiment" min="1" max="5">
+        <br>
+        <input type="submit" value="Add Item">
+      </form>
+    </section>
+
+    <section id="view-items">
+      <h2>View Items</h2>
+      <table>
+        <tr>
+          <th>Item Name</th>
+          <th>Item Location</th>
+          <th>Item Date Acquired</th>
+          <th>Sentimental Value</th>
+          <th>Keep/Toss</th>
+        </tr>
+        <tr>
+          <td>Item 1</td>
+          <td>Living Room</td>
+          <td>01/01/2020</td>
+          <td>3</td>
+          <td>Keep</td>
+        </tr>
+        <tr>
+          <td>Item 2</td>
+          <td>Bedroom</td>
+          <td>01/01/2021</td>
+          <td>5</td>
+          <td>Toss</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="progress">
+      <h2>Progress</h2>
+      <p>You have decluttered 10 items out of 50.</p>
+      <p>You have 10 days left to declutter the remaining 40 items.</p>
+    </section>
+  </main>

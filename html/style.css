@@ -1,0 +1,119 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* basic layout styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: aquamarine;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-top: 0;
+  }
+  
+  nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 0.5em;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: #2b2b2b;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  nav a:hover {
+    background-color: #2b2b2b;
+    color: #fff;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  section {
+    width: 100%;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1em 0;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* form styles */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  
+  form label {
+    width: 100%;
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form input[type="number"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-bottom: 2px solid #2b2b2b;
+  }
+  
+  form input[type="submit"] {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #2b2b2b;
+  }
+  
+  /* table styles */
+  table {
+    width: 100%;
+  }  
